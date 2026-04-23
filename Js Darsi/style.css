@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p1{
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

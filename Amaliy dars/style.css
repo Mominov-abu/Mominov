@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    border: 2px solid black;
+    width: 100%;
+    height: 700px;
+    background-image: url(./715676abe14b81be677f130b4a25482b.jpg) ;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    justify-content: center;
+    display: block;
+    
+}
+h1{
+    text-align: center;
+    background-color: rgb(140, 255, 0);
+    color: rgb(0, 8, 255);
+}
+          
