@@ -1,5 +1,147 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#f8f9fb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:  aqua;
+    align-items: baseline;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 20px;
+}
+.logo{
+    margin-left:50px;
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+    
+}
+.navigation li{
+    margin-right:50px;
+}
+.navigation li:hover{
+    background-color: rgb(191, 255, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+
+.about{
+    display:flex;
+    justify-content: space-between;
+    padding:50px 10%;
+    align-items: center;
+}
+
+.about-text{
+    max-width:400px;
+}
+
+.about-text h2{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.about-text p{
+    color:#666;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    width:120px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.card:nth-child(1){
+    background:#fef3c7;
+}
+.card:nth-child(2){
+    background:#d1fae5;
+}
+.card:nth-child(3){
+    background:#dbeafe;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+.courses{
+    padding:50px 10%;
+    text-align:center;
+    justify-content: space-between;
+}
+
+.courses h2{
+    margin-bottom:30px;
+}
+
+.course-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+
+.course{
+    background-color: aqua;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 10x 10px rgba(0,0,0,0.1);
+}
+
+.course img{
+    width:100%;
+    border-radius:10px;
+}
+
+.course h4{
+    margin-top:15px;
+}
+
+.btn{
+    margin-top:30px;
+    display:inline-block;
+    padding:10px 20px;
+    background:#06b6d4;
+    color:#fff;
+    border-radius:20px;
+    text-decoration:none;
+}
+.cta {
+    color: #000000;
+}
+.cta:hover, .cta:focus-visible {
+    color: #9f9d9d;
 }
